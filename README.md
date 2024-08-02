@@ -108,3 +108,9 @@ sudo BYPASS_OS_CHECK=true dpkg -i ./homeassistant-supervised.deb
 ```bash
 sudo apt --fix-broken install
 ```
+
+# P.S.
+
+Нужно будет остановить контейнер "hassio_audio",
+
+Он блокирует аудио, из-за чего неработает воспроизведение видео.
