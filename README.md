@@ -1,7 +1,7 @@
-Плата: OrangePi 5 Plus
-Образ взят с GitHub [Joshua-Riek](https://github.com/Joshua-Riek/ubuntu-rockchip)
-Ubuntu desktope 24.04 [image](https://github.com/Joshua-Riek/ubuntu-rockchip/releases/download/v2.3.0/ubuntu-24.04-preinstalled-desktop-arm64-orangepi-5-plus.img.xz)
-За основу взял [этот скрипт действий](https://pimylifeup.com/ubuntu-home-assistant/)
+- Плата: OrangePi 5 Plus
+- Образ взят с GitHub [Joshua-Riek](https://github.com/Joshua-Riek/ubuntu-rockchip)
+- Ubuntu desktope 24.04 [image](https://github.com/Joshua-Riek/ubuntu-rockchip/releases/download/v2.3.0/ubuntu-24.04-preinstalled-desktop-arm64-orangepi-5-plus.img.xz)
+- За основу взял [этот скрипт действий](https://pimylifeup.com/ubuntu-home-assistant/)
 
 
 # Подготовка Ubuntu к запуску под руководством Home Assistant
@@ -98,8 +98,11 @@ sudo BYPASS_OS_CHECK=true dpkg -i ./homeassistant-supervised.deb
 
 На случай этой ошибки:
 > dpkg: error processing package homeassistant-supervised (--install):
+> 
  >    installed homeassistant-supervised package post-installation script subprocess returned error exit status 2
+ >    
 >Errors were encountered while processing:
+>
  >    homeassistant-supervised
  
 ```bash
